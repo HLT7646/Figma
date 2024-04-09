@@ -9,14 +9,14 @@
 
 .image {
     width: 53%;
-    height: 100vh;
+    height: auto;
 }
 
 .login {
     
     width: 47%;
     box-sizing: border-box;
-    padding: 8% 6.4% 25.6% 11%;
+    padding: 8% 6.4% 19.6% 11%;
     display: flex;
     flex-direction: column;
 }
@@ -138,6 +138,18 @@ button {
     .image{
         width: 100%;
         height: 50vh;
+    }
+    .login{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 768px){
+    .content{
+        display: block;
+    }
+    .image{
+        width: 100%;
+        height: 25vh;
     }
     .login{
         width: 100%;
